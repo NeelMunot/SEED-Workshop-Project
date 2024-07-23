@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Our Team</title>
+    <title>Our Leadership Team</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,14 +17,14 @@
             overflow: hidden;
         }
         header {
-            background: #333;
-            color: #fff;
+            background: #fff;
+            color: #333;
             padding-top: 30px;
             min-height: 70px;
-            border-bottom: #77aaff 3px solid;
+            border-bottom: #9bbdf9 3px solid;
+            text-align: center;
         }
         header h1 {
-            text-align: center;
             text-transform: uppercase;
             margin: 0;
             font-size: 24px;
@@ -32,7 +32,7 @@
         .team {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center;
             padding: 20px 0;
         }
         .team-member {
@@ -42,20 +42,28 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
-            flex-basis: 30%;
+            flex-basis: 25%;
+            box-shadow: 1px 1px 1px rgb(121, 106, 151);
         }
         .team-member img {
-            border-radius: 50%;
+            border-radius: 10px;
             width: 150px;
             height: 150px;
             object-fit: cover;
         }
         .team-member h3 {
             margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+
         }
         .team-member p {
             font-size: 14px;
             color: #666;
+        }
+        .team-member .position {
+            color: #888;
+            font-style: italic;
         }
         footer {
             background: #333;
@@ -69,29 +77,37 @@
 <body>
     <header>
         <div class="container">
-            <h1>Meet Our Team</h1>
+            <h1>Our Legendary Team</h1>
+            <p>With over 100 years of combined experience, we've got a well-seasoned team at the helm.</p>
         </div>
     </header>
 
     <div class="container">
         <section class="team">
             <div class="team-member">
-                <img src="member1.jpg" alt="Team Member 1">
-                <h3>John Doe</h3>
-                <p>CEO & Founder</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac neque libero.</p>
+                <img src="assets/Mohit.png" alt="Mike Cannon-Brookes">
+                <h3>Mohit Kulkarni</h3>
+                <p class="position">Co-Founder & Co-CEO</p>
             </div>
             <div class="team-member">
-                <img src="member2.jpg" alt="Team Member 2">
-                <h3>Jane Smith</h3>
-                <p>Chief Technology Officer</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac neque libero.</p>
+                <img src="assets/Aditya.jpg" alt="Scott Farquhar">
+                <h3>Aditya Raut</h3>
+                <p class="position">Co-Founder & Co-CEO</p>
             </div>
             <div class="team-member">
-                <img src="member3.jpg" alt="Team Member 3">
-                <h3>Sam Wilson</h3>
-                <p>Lead Developer</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac neque libero.</p>
+                <img src="assets/Archit.jpg" alt="Sri Viswanath">
+                <h3>Archit Barve</h3>
+                <p class="position">Chief Technology Officer</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/Neel.jpg" alt="Anu Bharadwaj">
+                <h3>Neel Munot</h3>
+                <p class="position">Head of Enterprise & Cloud Platform</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/Yogesh.jpg" alt="Erika Fisher">
+                <h3>Yogesh Magar</h3>
+                <p class="position">Chief Administrative Officer & General Counsel</p>
             </div>
         </section>
     </div>
