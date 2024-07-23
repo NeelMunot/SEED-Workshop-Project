@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px 0;
+        }
+        .team-member {
+            background: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex-basis: 30%;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .team-member h3 {
+            margin-top: 10px;
+        }
+        .team-member p {
+            font-size: 14px;
+            color: #666;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meet Our Team</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="team">
+            <div class="team-member">
+                <img src="member1.jpg" alt="Team Member 1">
+                <h3>John Doe</h3>
+                <p>CEO & Founder</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac neque libero.</p>
+            </div>
+            <div class="team-member">
+                <img src="member2.jpg" alt="Team Member 2">
+                <h3>Jane Smith</h3>
+                <p>Chief Technology Officer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac neque libero.</p>
+            </div>
+            <div class="team-member">
+                <img src="member3.jpg" alt="Team Member 3">
+                <h3>Sam Wilson</h3>
+                <p>Lead Developer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac neque libero.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
