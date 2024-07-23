@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Description</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .product-title {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .product-images {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+        }
+        .product-images img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .product-description {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .section-title {
+            margin-top: 40px;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .feature-list, .review-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature-list li, .review-list li {
+            background-color: #f1f1f1;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .review-list li strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="product-title">Product Name</h1>
+        <div class="product-images">
+            <img src="image1.jpg" alt="Product Image 1">
+            <img src="image2.jpg" alt="Product Image 2">
+            <img src="image3.jpg" alt="Product Image 3">
+        </div>
+        <div class="product-description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel urna vel ligula auctor hendrerit. Cras eget sem sapien. Aliquam erat volutpat. Donec sed libero id risus facilisis gravida vel eget nulla. Integer tincidunt erat et quam viverra, id venenatis justo pellentesque.</p>
+        </div>
+        <h2 class="section-title">Features</h2>
+        <ul class="feature-list">
+            <li>Feature 1: Description of feature 1.</li>
+            <li>Feature 2: Description of feature 2.</li>
+            <li>Feature 3: Description of feature 3.</li>
+        </ul>
+        <h2 class="section-title">Customer Reviews</h2>
+        <ul class="review-list">
+            <li>
+                <strong>John Doe</strong>
+                <p>Great product! Really satisfied with my purchase.</p>
+            </li>
+            <li>
+                <strong>Jane Smith</strong>
+                <p>Good value for money. Would recommend to others.</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
